@@ -80,7 +80,7 @@ export default function DiceGame() {
     }
     setRolling(true);
     try {
-      const res = await fetch("http://localhost:3000/api/roll-dice", {
+      const res = await fetch("https://dice-bet-alpha.vercel.app/api/roll-dice", {
         method: "POST",
         headers: { 
           "Content-Type": "application/json",

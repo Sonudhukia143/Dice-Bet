@@ -35,7 +35,7 @@ export default function SignIn() {
 
         setLoading(true);
         try {
-            const response = await fetch("http://localhost:3000/api/signin", {
+            const response = await fetch("https://dice-bet-alpha.vercel.app/api/signin", {
                 method: "POST",
                 credentials: "include",                
                 body: JSON.stringify(formData),
