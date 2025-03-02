@@ -37,7 +37,7 @@ app.use(mongoSanitize());
 app.use(cookieParser());
 
 const corsOptions = {
-    origin: ['https://mybankweb.netlify.app','http://localhost:5173'],   
+    origin: ['https://bet-it.netlify.app/','http://localhost:5173'],   
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE','PATCH'],
     optionsSuccessStatus: 200,
